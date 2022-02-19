@@ -58,6 +58,19 @@
   .skinny {
     height: 17.5%;
   }
+  .skin {
+      height: 11.25%;
+      position: relative;
+  }
+
+  .corner{
+      display: flex;
+      justify-content: flex-start;
+      background-color: blue;
+      height: 45%;
+      width: 45%;
+      position: absolute;
+  }
   
   .fat {
     height: 30%;
@@ -75,7 +88,7 @@
   img {
       width: 150px;
       height:150px;
-      
+      background-color: white;
       justify-content:center;
 
   }
